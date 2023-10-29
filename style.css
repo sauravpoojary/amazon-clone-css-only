@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.navbar {
+  background-color: #0f1111;
+  height: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 150px;
+}
+
+.logo {
+  background-image: url("amazon_logo.png");
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+  mix-blend-mode: initial;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 2px solid white;
+}
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.5rem;
+  margin-left: 15px;
+}
+
+.add-second {
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.address-icon {
+  display: flex;
+  align-items: centers;
+}
+
+.nav-search {
+  display: flex;
+  background-color: pink;
+  width: 450px;
+  height: 40px;
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+
+.serachSelect {
+  background-color: #f3f3f3;
+  width: 30px;
+  align-items: canter;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd69;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+span {
+  font-size: 0.7rem;
+}
+
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.nav-cart i {
+  font-size: 30px;
+}
+
+.nav-cart {
+  display: flex;
+}
+
+.nav-cart p {
+  position: relative;
+  top: 7px;
+  left: 2px;
+}
+
+.panel {
+  height: 40px;
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.panel-ops {
+  display: flex;
+  width: 70%;
+  font-size: 0.85rem;
+  /* margin-left:10px; */
+}
+.panel-ops p {
+  margin-left: 10px;
+}
+
+.panel-deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.hero-section {
+  height: 350px;
+  background-size: cover;
+  background-image: url("hero_image.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.hero-msg a {
+  text-decoration: none;
+  color: #007185;
+}
+
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 2px solid black;
+  height: 430px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-img {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box-content a {
+  text-decoration: none;
+  color: #007185;
+}
+
+.foot-panel1 {
+    background-color: #37475A;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #232F3E;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+.foot-panel2 ul p {
+    font-weight: bold;
+}
+
+.foot-panel2 ul a {
+    text-decoration: none;
+    color: #DDDDD8;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.foot-panel3 {
+    background-color: #232F3E;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  /* mix-blend-mode: initial; */
+  width: 150px;
+  height: 50px;
+}
+
+.foot-panel4 {
+    background-color: #232F3E;
+    color: white;
+    border-top: 0.5px dotted white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu Mono', monospace;
+
+}
